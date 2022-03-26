@@ -76,7 +76,7 @@ const Landing = () => {
           <section className="col-sm-3">
             <figure className="thumbnail">
               <img
-                src="./assets/img/1.png"
+                src="./assets/img/1.jpeg"
                 className="rounded float-start"
                 alt="Paris"
                 width="300"
@@ -87,7 +87,7 @@ const Landing = () => {
           <section className="col-sm-3">
             <figure className="thumbnail">
               <img
-                src="./assets/img/2.png"
+                src="./assets/img/2.jpeg"
                 className="rounded float-end"
                 alt="New York"
                 width="300"
