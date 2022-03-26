@@ -99,9 +99,9 @@ const Landing = () => {
       </section>
       {/* Fin Vision y mision */}
       {/* Usar nuestra pagina */}
-      <section class=" p-5 container">
-        <div class="w-50 d-flex justify-content-between m-auto ">
-          <section class="col-sm-6  align-items-center">
+      <section class="p-5 container">
+        <div class="d-flex justify-content-between m-auto align-items-center">
+          <section class="col-sm-6  text-center">
             <section>
               <h4>
                 <b>
@@ -117,10 +117,10 @@ const Landing = () => {
               </p>
             </section>
           </section>
-          <section class="col-sm-6">
+          <section class="col-sm-6 text-center">
             <iframe
-              width="300"
-              height="170"
+              width="420"
+              height="240"
               src="https://www.youtube.com/embed/XF7gGbw1ihE"
               title="YouTube video player"
               frameborder="0"
