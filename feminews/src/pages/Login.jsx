@@ -21,7 +21,7 @@ const Login = () => {
 
 
         const API = axios.create({
-            baseURL: "http://localhost:4000/"
+            baseURL: "https://83b5-190-237-26-230.ngrok.io"
         })
 
         API.post("/api/signin", body)
@@ -42,7 +42,7 @@ const Login = () => {
         }
 
         const API = axios.create({
-            baseURL: "http://localhost:4000/"
+            baseURL: "https://83b5-190-237-26-230.ngrok.io"
         })
 
         API.post("/api/signup", body)
