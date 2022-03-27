@@ -8,7 +8,7 @@ const FooterLanding = () => {
     >
       <div className="d-block text-center">
         <img
-          src="./assets/img/logo.svg"
+          src="./assets/img/logo.png"
           alt="logo"
           className="img-fluid"
           style={{ width: "200px" }}

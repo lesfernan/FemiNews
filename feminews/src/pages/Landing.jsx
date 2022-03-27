@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Landing = () => {
   return (
@@ -21,7 +22,9 @@ const Landing = () => {
               }}
               className="text-light py-2 px-5 mt-5"
             >
-              Registro
+              <Link to="/login" className="text-decoration-none text-light">
+                Ingreso
+              </Link>
             </button>
           </div>
           <img

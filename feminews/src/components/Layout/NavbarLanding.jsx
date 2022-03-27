@@ -8,7 +8,13 @@ const NavbarLanding = () => {
     >
       <div className="container-fluid container">
         <a className="navbar-brand" href="#">
-          <b>Navbar</b>
+          {/* <b>Navbar</b> */}
+          <img
+            src="./assets/img/logo.png"
+            alt="logo"
+            className="img-fluid"
+            style={{ width: "200px" }}
+          />
         </a>
         <button
           className="navbar-toggler"
