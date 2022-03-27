@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="49" height="52" viewBox="0 0 49 52">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#pattern);
+      }
+    </style>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 200 212">
+      <image width="200" height="212" xlink:href="Latina_TV_2019-image.png"/>
+    </pattern>
+  </defs>
+  <rect id="Latina_TV_2019" class="cls-1" width="49" height="52"/>
+</svg>
