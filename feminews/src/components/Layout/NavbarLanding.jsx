@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const NavbarLanding = () => {
   return (
@@ -12,8 +13,8 @@ const NavbarLanding = () => {
           <img
             src="./assets/img/logo.png"
             alt="logo"
-            className="img-fluid"
-            style={{ width: "200px" }}
+            className="img-fluid mt-3"
+            style={{ width: "200px", height: "150px" }}
           />
         </a>
         <button
@@ -43,6 +44,11 @@ const NavbarLanding = () => {
               <a className="nav-link active" aria-current="page" href="#">
                 Nosotros
               </a>
+            </li>
+            <li className="nav-item mx-4">
+              <Link className="nav-link active" aria-current="page" to="/news">
+                Noticias
+              </Link>
             </li>
           </ul>
         </div>
