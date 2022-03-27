@@ -1,0 +1,28 @@
+.footer {
+  background-color: rgb(107, 2, 240);
+  height: 160px;
+  .btn-icon {
+    border-radius: 10px;
+    border: none;
+    height: 45px;
+    width: 45px;
+    i {
+      font-size: 30px;
+    }
+  }
+  .copyrigth {
+    bottom: 0;
+    color: black;
+    font-family: calibri, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    position: absolute;
+  }
+  .div-form {
+    position: relative;
+    span {
+      position: absolute;
+    }
+  }
+}

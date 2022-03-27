@@ -1,0 +1,30 @@
+.navbar {
+  background-color: rgb(107, 3, 240);
+  height: 80px;
+  img:first-child {
+    height: 80px;
+    padding-right: 10px;
+    width: 80px;
+  }
+  img:last-child {
+    height: 80px;
+    padding-left: 10px;
+    width: 80px;
+  }
+
+  h1 {
+    color: white;
+    font-size: 28px;
+  }
+  h2 {
+    color: black;
+    font-weight: 900;
+  }
+  h1:hover {
+    color: rgb(241, 70, 99);
+  }
+  .logo {
+    margin-left: -20px;
+    height: 80px !important;
+  }
+}

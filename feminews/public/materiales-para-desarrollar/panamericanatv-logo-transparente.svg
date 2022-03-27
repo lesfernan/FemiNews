@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="169" height="185" viewBox="0 0 169 185">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#pattern);
+      }
+    </style>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 474 520">
+      <image width="474" height="520" xlink:href="panamericanatv-logo-transparente-image.png"/>
+    </pattern>
+  </defs>
+  <rect id="panamericanatv-logo-transparente" class="cls-1" width="169" height="185"/>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="314" height="351.806" viewBox="0 0 314 351.806">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.712" y2="0.37" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#80a6f2"/>
+      <stop offset="1" stop-color="#f28dd7"/>
+    </linearGradient>
+  </defs>
+  <path id="Polígono_9" data-name="Polígono 9" class="cls-1" d="M66.5,56.666c3.855-15.032,25.205-15.032,29.06,0l61.7,240.612A15,15,0,0,1,142.724,316H19.331A15,15,0,0,1,4.8,297.277Z" transform="matrix(-0.819, -0.574, 0.574, -0.819, 132.748, 351.806)"/>
+</svg>
