@@ -7,9 +7,10 @@ const Landing = () => {
         <div className="container d-flex justify-content-evenly align-items-center py-5">
           <div>
             <h3 className="mb-5">
-              <span style={{ color: "#f18ed6" }}>Life is a journey</span>
+              <span style={{ color: "#f18ed6" }}>Opina y Expone </span>
               <span style={{ color: "#99b4ef" }}>
-                , not a<br></br> destination
+                de manera segura tus críticas <br></br> hacia los medios de
+                comunicación{" "}
               </span>
             </h3>
             <button
@@ -35,20 +36,21 @@ const Landing = () => {
       <section className="text-center p-5 container">
         <div className="w-50 m-auto">
           <h4 style={{ color: "#6a02f1" }}>
-            <b>Que hace nuestra pagina</b>
+            <b>FemiNews</b>
           </h4>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis
-            eaque aliquam et fuga tenetur, veniam laudantium non magni cum
-            reprehenderit laborum a labore minus. Quo nobis rem dolore iste,
-            quia soluta, ratione reiciendis vero odit ducimus fuga, esse
-            aspernatur unde.
+            FemiNews es un espacio creado para la <b>discusión</b> y la
+            <b> fiscalizacion</b> ciudadana de medios de comunicación. Nuestro
+            objetivo es brindarle a las mujeres una plataforma que les permita
+            <b> opinar y exponer de manera segura sus críticas </b> hacia los
+            medios de comunicación que incumplan con los estándares de ética y
+            calidad informativa
           </p>
         </div>
         <div className="d-flex justify-content-between">
-          <img className="w-25" src="./assets/img/imagen-header.png" alt="" />
-          <img className="w-25" src="./assets/img/imagen-header.png" alt="" />
-          <img className="w-25" src="./assets/img/imagen-header.png" alt="" />
+          <img className="w-25" src="./assets/img/imagen1.png" alt="" />
+          <img className="w-25" src="./assets/img/imagen2.png" alt="" />
+          <img className="w-25" src="./assets/img/imagen3.png" alt="" />
         </div>
       </section>
       {/* FIN Que hace nuestra pagina */}
@@ -63,13 +65,10 @@ const Landing = () => {
         </h4>
         <div className="w-50 m-auto">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-            quo deserunt delectus, excepturi reprehenderit, est dolorem
-            explicabo totam sed quaerat tempora molestiae laudantium quibusdam
-            omnis nisi magni, eligendi fuga. Fugit.lo Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Consectetur asperiores aut recusandae.
-            Libero, impedit nam! Quis, corporis consequuntur sint ab optio rem
-            eos nobis temporibus in. Est expedita labore minus.
+            Creemos que este espacio de crítica y opinión supone una oportunidad
+            de que las voces del público expongan de manera adecuada a los
+            medios y con ello, poder influenciar en el momento de corregir los
+            incorrectos abordamientos sobre la violencia de género.
           </p>
         </div>
         <section className="row text-center d-flex justify-content-center ">
@@ -82,6 +81,45 @@ const Landing = () => {
                 width="300"
                 height="200"
               />
+              {/* <!-- Button trigger modal --> */}
+              <button
+                type="button"
+                class="btn btn-primary  btn-danger"
+                data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop"
+              >
+                Misión
+              </button>
+
+              {/* <!-- Modal --> */}
+              <div
+                class="modal fade"
+                id="staticBackdrop"
+                data-bs-backdrop="static"
+                data-bs-keyboard="false"
+                tabindex="-1"
+                aria-labelledby="staticBackdropLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel">
+                        Misión
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      Que muchas mujeres se sientan comodas con las noticias
+                    </div>
+                  </div>
+                </div>
+              </div>
             </figure>
           </section>
           <section className="col-sm-3">
@@ -93,109 +131,65 @@ const Landing = () => {
                 width="300"
                 height="200"
               />
+              {/* <!-- Button trigger modal --> */}
+              <button
+                type="button"
+                class="btn btn-primary btn-danger"
+                data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop"
+              >
+                Visión
+              </button>
+
+              {/* <!-- Modal --> */}
+              <div
+                class="modal fade"
+                id="staticBackdrop"
+                data-bs-backdrop="static"
+                data-bs-keyboard="false"
+                tabindex="-1"
+                aria-labelledby="staticBackdropLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel">
+                        Visión
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      Muchas mujeres puedan sentirse seguras exponiendo de
+                      manera adecuada a los medios y con ello, poder influenciar
+                      en el momento de corregir los incorrectos abordamientos
+                      sobre la violencia de género.
+                    </div>
+                  </div>
+                </div>
+              </div>
             </figure>
           </section>
         </section>
       </section>
       {/* Fin Vision y mision */}
-      {/* Usar nuestra pagina */}
-      <section class="p-5 container">
-        <div class="d-flex justify-content-between m-auto align-items-center">
-          <section class="col-sm-6  text-center">
-            <section>
-              <h4>
-                <b>
-                  <span style={{ color: "#6a02f1" }}>Watch</span>{" "}
-                  <span style={{ color: "black" }}>or lattest tour</span>{" "}
-                </b>
-              </h4>
-              <p>
-                Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Possimus sed delectus omnis quisquam aliquam impedit consequatur
-                architecto dolore odio ipsam eos, officiis nam itaque natus
-                cumque voluptatum! Tempore, recusandae magni.
-              </p>
-            </section>
-          </section>
-          <section class="col-sm-6 text-center">
-            <iframe
-              width="420"
-              height="240"
-              src="https://www.youtube.com/embed/XF7gGbw1ihE"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </section>
-        </div>
-      </section>
-      {/* Fin usar nuestra pagina */}
 
       {/* Nuestro equipo */}
       <section className="text-center container ">
         <h4>
           <b>
-            <span style={{ color: "#6a02f1" }}>Our</span>{" "}
-            <span style={{ color: "black" }}>Team</span>{" "}
+            <span style={{ color: "#6a02f1" }}>Nuestro</span>{" "}
+            <span style={{ color: "black" }}>Equipo</span>{" "}
           </b>
         </h4>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto
-          vero ex culpa, accusamus voluptate ut?
-        </p>
-        <div className="d-flex justify-content-between align-items-center my-5">
-          <img src="./assets/img/imagen-header.png" alt="" className="w-50" />
-          <div>
-            <h4 className="my-4">
-              Our <span style={{ color: "#6a02f1" }}>team is the secret</span>{" "}
-              to our success
-            </h4>
-            <div className="d-flex justify-content-between">
-              <span
-                className="p-3 ms-5 me-4"
-                style={{
-                  width: "50px",
-                  height: "50px",
-                  borderRadius: "50%",
-                  lineHeight: "1px",
-                }}
-              >
-                <i
-                  className="fa-solid fa-folder-minus"
-                  style={{ color: "#6a02f1", fontSize: "1.2rem" }}
-                ></i>
-              </span>
-              <p className="text-secondary text-start">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Pariatur reprehenderit sit saepe cum iure id quae est voluptatum
-                consectetur nihil? Quam delectus reprehenderit dolorem optio
-                quia mollitia quas, aspernatur illum.
-              </p>
-            </div>
-            <div className="d-flex justify-content-between">
-              <span
-                className="p-3 ms-5 me-4"
-                style={{
-                  width: "50px",
-                  height: "50px",
-                  borderRadius: "50%",
-                  lineHeight: "1px",
-                }}
-              >
-                <i
-                  className="fa-solid fa-people-group"
-                  style={{ color: "#6a02f1", fontSize: "1.2rem" }}
-                ></i>
-              </span>
-              <p className="text-secondary text-start">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Pariatur reprehenderit sit saepe cum iure id quae est voluptatum
-                consectetur nihil? Quam delectus reprehenderit dolorem optio
-                quia mollitia quas, aspernatur illum.
-              </p>
-            </div>
-          </div>
+        <p></p>
+        <div className="d-flex justify-content-center align-items-center my-5">
+          <img src="./assets/img/lesfer.png" alt="" className="w-50" />
         </div>
       </section>
       {/* Fin nuestro equipo */}
